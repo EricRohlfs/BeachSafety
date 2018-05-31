@@ -64,7 +64,7 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot4908"
-       style="font-style:normal;font-weight:normal;font-size:21.33333397px;line-height:16;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:21.33333397;line-height:16;font-family:sans-serif;letter-spacing:0;word-spacing:0;fill:#000000;fill-opacity:1;stroke:none"
        transform="scale(0.26458333)"><flowRegion
          id="flowRegion4910"><rect
            id="rect4912"
@@ -204,7 +204,7 @@
        ry="0.59501392" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:0.94101429px;line-height:0;font-family:'OCR A Extended';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02352536;-inkscape-font-specification:'OCR A Extended';font-stretch:normal;font-variant:normal;"
+       style="font-style:normal;font-weight:normal;font-size:0.94101429;line-height:0;font-family:'OCR A Extended';letter-spacing:0;word-spacing:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02352536;-inkscape-font-specification:'OCR A Extended';font-stretch:normal;font-variant:normal;"
        x="3.5228002"
        y="318.64612"
        id="text4746"
@@ -216,7 +216,7 @@
          style="line-height:0;stroke-width:0.02352536;-inkscape-font-specification:'OCR A Extended';font-family:'OCR A Extended';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">TXEN</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:0.94101429px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02352536"
+       style="font-style:normal;font-weight:normal;font-size:0.94101429;line-height:0;font-family:sans-serif;letter-spacing:0;word-spacing:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02352536"
        x="7.1567507"
        y="318.69797"
        id="text4746-0"
@@ -228,7 +228,7 @@
          style="line-height:0;stroke-width:0.02352536;-inkscape-font-specification:'OCR A Extended';font-family:'OCR A Extended';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">VCC</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:0.94101429px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02352536"
+       style="font-style:normal;font-weight:normal;font-size:0.94101429;line-height:0;font-family:sans-serif;letter-spacing:0;word-spacing:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02352536"
        x="3.4084945"
        y="321.33734"
        id="text4746-3"
@@ -240,7 +240,7 @@
          style="line-height:0;stroke-width:0.02352536;-inkscape-font-specification:'OCR A Extended';font-family:'OCR A Extended';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">PWUP</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:0.94101429px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02352536"
+       style="font-style:normal;font-weight:normal;font-size:0.94101429;line-height:0;font-family:sans-serif;letter-spacing:0;word-spacing:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02352536"
        x="6.7796621"
        y="324.18292"
        id="text4746-1"
@@ -252,7 +252,7 @@
          style="line-height:0;stroke-width:0.02352536;-inkscape-font-specification:'OCR A Extended';font-family:'OCR A Extended';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">UPLK</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:0.94101429px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02352536"
+       style="font-style:normal;font-weight:normal;font-size:0.94101429;line-height:0;font-family:sans-serif;letter-spacing:0;word-spacing:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02352536"
        x="3.8006663"
        y="324.10043"
        id="text4746-6"
@@ -264,7 +264,7 @@
          style="line-height:0;stroke-width:0.02352536;-inkscape-font-specification:'OCR A Extended';font-family:'OCR A Extended';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">CD</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:0.94101429px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02352536"
+       style="font-style:normal;font-weight:normal;font-size:0.94101429;line-height:0;font-family:sans-serif;letter-spacing:0;word-spacing:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02352536"
        x="6.6665349"
        y="321.41983"
        id="text4746-69"
@@ -276,7 +276,7 @@
          style="line-height:0;stroke-width:0.02352536;-inkscape-font-specification:'OCR A Extended';font-family:'OCR A Extended';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">TRXCE</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:0.94101429px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02352536"
+       style="font-style:normal;font-weight:normal;font-size:0.94101429;line-height:0;font-family:sans-serif;letter-spacing:0;word-spacing:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02352536"
        x="6.7419534"
        y="332.26599"
        id="text4746-1-0"
@@ -288,7 +288,7 @@
          style="line-height:0;stroke-width:0.02352536;-inkscape-font-specification:'OCR A Extended';font-family:'OCR A Extended';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">SCK</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:0.94101429px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02352536"
+       style="font-style:normal;font-weight:normal;font-size:0.94101429;line-height:0;font-family:sans-serif;letter-spacing:0;word-spacing:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02352536"
        x="3.4612861"
        y="332.18353"
        id="text4746-1-1"
@@ -300,7 +300,7 @@
          style="line-height:0;stroke-width:0.02352536;-inkscape-font-specification:'OCR A Extended';font-family:'OCR A Extended';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">CSN</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:0.94101429px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02352536"
+       style="font-style:normal;font-weight:normal;font-size:0.94101429;line-height:0;font-family:sans-serif;letter-spacing:0;word-spacing:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02352536"
        x="3.483912"
        y="329.66788"
        id="text4746-1-7"
@@ -312,7 +312,7 @@
          style="line-height:0;stroke-width:0.02352536;-inkscape-font-specification:'OCR A Extended';font-family:'OCR A Extended';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">MOSI</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:0.94101429px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02352536"
+       style="font-style:normal;font-weight:normal;font-size:0.94101429;line-height:0;font-family:sans-serif;letter-spacing:0;word-spacing:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02352536"
        x="6.9682064"
        y="329.58539"
        id="text4746-1-5"
@@ -324,7 +324,7 @@
          style="line-height:0;stroke-width:0.02352536;-inkscape-font-specification:'OCR A Extended';font-family:'OCR A Extended';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">MISO</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:0.94101429px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02352536"
+       style="font-style:normal;font-weight:normal;font-size:0.94101429;line-height:0;font-family:sans-serif;letter-spacing:0;word-spacing:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02352536"
        x="3.8760843"
        y="326.86353"
        id="text4746-1-2"
@@ -336,7 +336,7 @@
          style="line-height:0;stroke-width:0.02352536;-inkscape-font-specification:'OCR A Extended';font-family:'OCR A Extended';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">DR</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:0.94101429px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02352536"
+       style="font-style:normal;font-weight:normal;font-size:0.94101429;line-height:0;font-family:sans-serif;letter-spacing:0;word-spacing:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02352536"
        x="7.2774191"
        y="326.90479"
        id="text4746-1-28"
@@ -348,7 +348,7 @@
          style="line-height:0;stroke-width:0.02352536;-inkscape-font-specification:'OCR A Extended';font-family:'OCR A Extended';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">AM</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:0.94101429px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02352536"
+       style="font-style:normal;font-weight:normal;font-size:0.94101429;line-height:0;font-family:sans-serif;letter-spacing:0;word-spacing:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02352536"
        x="6.7796612"
        y="335.1528"
        id="text4746-1-0-2"
@@ -360,7 +360,7 @@
          style="line-height:0;stroke-width:0.02352536;-inkscape-font-specification:'OCR A Extended';font-family:'OCR A Extended';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">GND</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:0.94101429px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02352536"
+       style="font-style:normal;font-weight:normal;font-size:0.94101429;line-height:0;font-family:sans-serif;letter-spacing:0;word-spacing:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.02352536"
        x="3.8006659"
        y="335.1528"
        id="text4746-1-0-9"
@@ -372,7 +372,7 @@
          style="line-height:0;stroke-width:0.02352536;-inkscape-font-specification:'OCR A Extended';font-family:'OCR A Extended';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">GND</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:1.27435136px;line-height:16;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05973522"
+       style="font-style:normal;font-weight:normal;font-size:1.27435136;line-height:16;font-family:sans-serif;letter-spacing:0;word-spacing:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05973522"
        x="16.737698"
        y="292.50488"
        id="text4906"
@@ -384,7 +384,7 @@
          style="stroke-width:0.05973522">16.00</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:1.17779183px;line-height:16;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05520899"
+       style="font-style:normal;font-weight:normal;font-size:1.17779183;line-height:16;font-family:sans-serif;letter-spacing:0;word-spacing:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05520899"
        x="25.146244"
        y="315.45389"
        id="text4918"
@@ -436,7 +436,7 @@
        transform="scale(-1)" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:1.17779183px;line-height:16;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05520899"
+       style="font-style:normal;font-weight:normal;font-size:1.17779183;line-height:16;font-family:sans-serif;letter-spacing:0;word-spacing:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05520899"
        x="25.08453"
        y="311.14844"
        id="text4993"
@@ -448,7 +448,7 @@
          style="stroke-width:0.05520899;-inkscape-font-specification:'OCR A Extended';font-family:'OCR A Extended';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">Antena</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:0.89942014px;line-height:16;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.04216032"
+       style="font-style:normal;font-weight:normal;font-size:0.89942014;line-height:16;font-family:sans-serif;letter-spacing:0;word-spacing:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.04216032"
        x="26.756744"
        y="305.55817"
        id="text4997"
@@ -460,7 +460,7 @@
          style="stroke-width:0.04216032;-inkscape-font-specification:'OCR A Extended';font-family:'OCR A Extended';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">Not To Scale</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:1.17779183px;line-height:16;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05520899"
+       style="font-style:normal;font-weight:normal;font-size:1.17779183;line-height:16;font-family:sans-serif;letter-spacing:0;word-spacing:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05520899"
        x="20.194138"
        y="305.68207"
        id="text4993-6"

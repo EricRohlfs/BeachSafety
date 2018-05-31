@@ -34,6 +34,12 @@ https://github.com/t3chguy/arudino-maxmatrix-library/tree/master/MaxMatrix
 Wireless Radio Library
 http://www.airspayce.com/mikem/arduino/RadioHead/classRH__NRF905.html
 
+http://www.electrodragon.com/w/NRF905
+
+https://github.com/athombv/homey-arduino-nrf905/blob/master/doc/arduino_nRF905_wiring.png
+
+http://www.zonnepanelen.wouterlood.com/arduino-bare-basics/arduino-passing-temperature-readings-to-a-neighbor-arduino-three-ways-of-serial-communication/
+
 
 ### Wireless
 The inexpensive 433mhz module did not have enough range to be effective, we are upgrading to the NRF905 Wireless Radio Transceiver.
