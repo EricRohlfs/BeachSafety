@@ -5,11 +5,21 @@
   https://github.com/OakLake/MPU9255
 */
 
-
+#define LCD_ON = true;
+#define LED_ON = true;
 
 #include <MPU9255.h>//include MPU9255 library
+
+#ifdef LCD_ON
 #include <PCD8544.h>
-#define LCD_ON = true;
+#endif
+
+#include <MaxMatrix.h>
+const int DIN = 7;
+const int CLK = 6;
+const int CS = 5;
+const int maxInUse = 1;
+MaxMatrix m (DIN, CS, CLK, maxInUse);
 
 
 // Using NOKIA 5110 monochrome 84 x 48 pixel display
@@ -18,7 +28,7 @@
 // pin 7 - Data/Command select (D/C)
 // pin 5 - LCD chip select (CS)
 // pin 6 - LCD reset (RST)
-static PCD8544 lcd = PCD8544(9, 8, 7, 6, 5);
+//#static PCD8544 lcd = PCD8544(9, 8, 7, 6, 5);
 
 
 #define g 9.81 // 1g ~ 9.81 m/s^2
@@ -67,6 +77,30 @@ double process_magnetic_flux(int16_t input, double sensitivity)
 
 void calibrate_mag();
 
+
+void set_led(float yaw)
+{
+  int d = (int)yaw + 180;
+  Serial.print("converted ");
+  Serial.print(d);
+  m.clear();
+  switch (d)
+  {
+    //numbers are counter clockwise
+    //Straight forward
+    case 0 ... 20: m.setDot(0, 4, true); m.setDot(0, 5, true); break;
+    //little to the right kinda like North East
+    case 21 ... 69: m.setDot(2, 2, true); m.setDot(1, 3, true); break;
+    //right like East
+    case 70 ... 100: m.setDot(3, 2, true); m.setDot(4, 2, true); break;
+    case 101 ... 145: m.setDot(6, 2, true); m.setDot(5, 3, true);  break;
+    //turn around behind you
+    case 146 ... 199: m.setDot(7, 4, true); m.setDot(7, 5, true); break;
+    default:
+      break;
+  }
+}
+
 void setup() {
   Serial.begin(115200);//initialize Serial port
   mpu.init();//initialize MPU9255 chip
@@ -104,12 +138,16 @@ void setup() {
 
   yaw = atan2(my, mx) * 57.3;
 
-#ifdef LCD_ON
-  lcd.begin(84, 48);
-#endif
+  //#ifdef LCD_ON
+  //  lcd.begin(84, 48);
+  //#endif
+  //
+  m.init();
+  m.setIntensity(8);
 
 
 }
+
 
 void loop() {
 
@@ -183,13 +221,15 @@ void loop() {
   Serial.print(" Yaw: ");
   Serial.print(yaw);
   Serial.println();
-  
-#ifdef LCD_ON
-  lcd.setCursor(0, 0);
-  lcd.print(yaw);
-#endif
 
-  delay(400);
+  //#ifdef LCD_ON
+  //  lcd.setCursor(0, 0);
+  //  lcd.print(yaw);
+  //#endif
+
+  set_led(yaw);
+
+  delay(100);
 }
 
 
@@ -235,5 +275,6 @@ void calibrate_mag() {
     Serial.print(" ] . ");
     Serial.println();
   }
+
 
 }
