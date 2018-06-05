@@ -78,7 +78,28 @@ double process_magnetic_flux(int16_t input, double sensitivity)
 void calibrate_mag();
 
 
-void set_led(float yaw)
+
+void set_distance(float d)
+{
+
+  if(d > 7){
+      d= 7;
+    }
+  if(d < 0){
+    d=0;
+    }
+  //clear row
+  for (int i = 0; i < 7; i++) {
+    m.setDot(i, 0, false);
+  }
+  //fill up dots 0 to d
+  for (int i = 7; i > d-1; i--) {
+    m.setDot(i, 0, true);
+  }
+
+}
+
+void set_direction(float yaw)
 {
   int d = (int)yaw + 180;
   Serial.print("converted ");
@@ -101,7 +122,7 @@ void set_led(float yaw)
     case 301 ... 345: m.setDot(1, 7, true); m.setDot(2, 6, true); break;
     //Other Half-ish of Forward
     case 346 ... 360: m.setDot(0, 4, true); m.setDot(0, 5, true); break;
-    
+
     default:
       break;
   }
@@ -233,7 +254,9 @@ void loop() {
   //  lcd.print(yaw);
   //#endif
 
-  set_led(yaw);
+  int dist = (int)roll / 10;
+  set_direction(yaw);
+  set_distance(dist);
 
   delay(100);
 }
