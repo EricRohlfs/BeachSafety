@@ -86,16 +86,22 @@ void set_led(float yaw)
   m.clear();
   switch (d)
   {
-    //numbers are counter clockwise
-    //Straight forward
-    case 0 ... 20: m.setDot(0, 4, true); m.setDot(0, 5, true); break;
-    //little to the right kinda like North East
-    case 21 ... 69: m.setDot(2, 2, true); m.setDot(1, 3, true); break;
-    //right like East
-    case 70 ... 100: m.setDot(3, 2, true); m.setDot(4, 2, true); break;
-    case 101 ... 145: m.setDot(6, 2, true); m.setDot(5, 3, true);  break;
-    //turn around behind you
-    case 146 ... 199: m.setDot(7, 4, true); m.setDot(7, 5, true); break;
+
+    //Forward
+    case 0 ... 30: m.setDot(0, 4, true); m.setDot(0, 5, true); break;
+    case 31 ... 75: m.setDot(2, 2, true); m.setDot(1, 3, true); break;
+    //Right
+    case 76 ... 120: m.setDot(3, 2, true); m.setDot(4, 2, true); break;
+    case 121 ... 165: m.setDot(6, 2, true); m.setDot(5, 3, true); break;
+    //Turn Around
+    case 166 ... 210: m.setDot(7, 4, true); m.setDot(7, 5, true); break;
+    case 211 ... 255: m.setDot(6, 7, true); m.setDot(5, 6, true); break;
+    //Left
+    case 256 ... 300: m.setDot(4, 7, true); m.setDot(3, 7, true); break;
+    case 301 ... 345: m.setDot(1, 7, true); m.setDot(2, 6, true); break;
+    //Other Half-ish of Forward
+    case 346 ... 360: m.setDot(0, 4, true); m.setDot(0, 5, true); break;
+    
     default:
       break;
   }
